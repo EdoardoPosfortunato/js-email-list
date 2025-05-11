@@ -1,5 +1,5 @@
 
-const arrayEmail = [];
+let arrayEmail = [];
 let li = '';
 const listaEmail = document.getElementById("lista");
 const btn = document.getElementById("btn");
@@ -12,6 +12,7 @@ function stampa() {
 
     listaEmail.innerHTML = '';
     li = ``;
+    arrayEmail = [];
 
     for (let i = 1; i <= numeroEmailRichieste; i++) {
 
